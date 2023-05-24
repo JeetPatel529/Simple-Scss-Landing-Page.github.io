@@ -279,6 +279,9 @@
   }
 }
 @media (max-width: 440px) {
+  .my-team-introduction .team-box {
+    margin: 0 !important;
+  }
   .my-team-introduction {
     gap: 0;
   }
@@ -287,6 +290,7 @@
   h1 {
     font-size: 48px;
     line-height: 52px;
+    text-align: left !important;
   }
   .my-medium {
     margin-top: 1.7rem;
@@ -312,5 +316,9 @@
   .title-box {
     align-items: flex-start;
     text-align: left;
+  }
+  .my-medium img {
+    max-width: 100%;
+    height: auto;
   }
 }/*# sourceMappingURL=media.css.map */
